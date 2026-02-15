@@ -9,14 +9,14 @@
 - Підтримує інтеграцію з Telegram та Viber;
 
 ## Використання
-- Веб‑чат: надсилати POST‑запити на: http://localhost:5000/chat з JSON:
+Веб‑чат: надсилати POST‑запити на: http://localhost:5000/chat з JSON:
 ```
 {
   "message": "заявка на купівлю зерна"
 }
 ```
-- Адмін‑панель: відкрити у браузері: http://localhost:5000/admin/applications;
-- Viber: написати нашому боту у Viber.
+Адмін‑панель: відкрити у браузері: http://localhost:5000/admin/applications;
+Viber: написати нашому боту у Viber.
 
 ## Структура проєкту 
 ```
