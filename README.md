@@ -10,25 +10,10 @@
 
 ## 📂 Структура проєкту 
 ```
-├── public/
-├── src/
-    ├──── app/                    
-          └── store.ts
-    ├──── features/
-          ├── auth/               
-              ├── authSlice.ts
-              ├── authApi.ts      
-              ├── LoginPage.tsx
-              └── RegisterPage.tsx
-          └── dashboard/         
-              └── DashboardPage.tsx
-    ├──── components/             
-          └── Navbar.tsx
-    ├──── routes/                 
-          └── AppRoutes.tsx
-    ├──── utils/                  
-          └── authGuard.tsx
-    ├── main.tsx
+├── .venv/
+├── main.py
+├── README.md
+└── requirements.txt
 ```
 - `app.py` — основний Flask‑додаток.
 - `ApplicationModel` — ORM‑модель для таблиці заявок.
