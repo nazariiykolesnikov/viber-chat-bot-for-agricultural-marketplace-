@@ -28,7 +28,8 @@
           └── AppRoutes.tsx
     ├──── utils/                  
           └── authGuard.tsx
-    ├── main.tsx```
+    ├── main.tsx
+```
 - `app.py` — основний Flask‑додаток.
 - `ApplicationModel` — ORM‑модель для таблиці заявок.
 - `/chat` — REST API для веб‑чату.
