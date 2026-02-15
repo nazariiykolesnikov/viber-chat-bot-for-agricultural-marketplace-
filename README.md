@@ -9,4 +9,28 @@
 - Підтримує інтеграцію з Telegram та Viber;
 
 ## 📂 Структура проєкту 
-- `app.py` — основний Flask‑додаток. - `ApplicationModel` — ORM‑модель для таблиці заявок. - `/chat` — REST API для веб‑чату. - `/viber` — webhook для Viber‑бота. - Telegram‑бот запускається у паралельному потоці. - `/admin/applications` — адмін‑панель для перегляду та додавання заявок.
+├── public/
+├── src/
+    ├──── app/                    
+          └── store.ts
+    ├──── features/
+          ├── auth/               
+              ├── authSlice.ts
+              ├── authApi.ts      
+              ├── LoginPage.tsx
+              └── RegisterPage.tsx
+          └── dashboard/         
+              └── DashboardPage.tsx
+    ├──── components/             
+          └── Navbar.tsx
+    ├──── routes/                 
+          └── AppRoutes.tsx
+    ├──── utils/                  
+          └── authGuard.tsx
+    ├── main.tsx
+- `app.py` — основний Flask‑додаток.
+- `ApplicationModel` — ORM‑модель для таблиці заявок.
+- `/chat` — REST API для веб‑чату.
+- `/viber` — webhook для Viber‑бота.
+- Telegram‑бот запускається у паралельному потоці
+- `/admin/applications` — адмін‑панель для перегляду та додавання заявок.
